@@ -4,6 +4,6 @@ import {connect} from 'lit-redux';
 import actions from './actions';
 
 export default connect(
-	({ todos, editing }) => ({ todos, editing }),
-	dispatch => ({ actions: bindActionCreators(actions, dispatch) })
+    ({ todos, editing }) => ({ todos, editing }),
+    dispatch => ({ actions: bindActionCreators(actions, dispatch) })
 )(appTemplate);

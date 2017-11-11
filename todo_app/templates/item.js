@@ -5,9 +5,9 @@ import preset from 'jss-preset-default';
 jss.setup(preset());
 
 const {classes} = jss.createStyleSheet({
-	container: {
-		// todo
-	},
+    container: {
+        // todo
+    },
 }).attach();
 
 export default ({text, done, onDoneChange, onEdit, onSave}) => html`

@@ -8,7 +8,7 @@ import cx from 'classnames';
 jss.setup(preset());
 
 const {classes} = jss.createStyleSheet({
-	container: {
+    container: {
         width: '500px',
         marginTop: '20px',
         marginBottom: '20px',
@@ -17,27 +17,27 @@ const {classes} = jss.createStyleSheet({
         padding: '20px',
         borderRadius: '3px',
         boxShadow: '0 0 5px silver',
-	},
-	addForm: {
-		marginBottom: '20px',
-		border: '1px solid silver',
-		padding: '10px',
-		borderRadius: '3px',
-		backgroundColor: 'silver',
-	},
-	list: {
+    },
+    addForm: {
+        marginBottom: '20px',
+        border: '1px solid silver',
+        padding: '10px',
+        borderRadius: '3px',
+        backgroundColor: 'silver',
+    },
+    list: {
         // todo
-	},
-	listItem: {
-		borderTop: '1px solid silver',
-		padding: '10px',
+    },
+    listItem: {
+        borderTop: '1px solid silver',
+        padding: '10px',
         '&:last-child': {
             borderBottom: '1px solid silver',
         },
-	},
-	listItemEditing: {
-		backgroundColor: 'yellow',
-	},
+    },
+    listItemEditing: {
+        backgroundColor: 'yellow',
+    },
 }).attach();
 
 export default ({todos=[], editing, actions}) => html`
