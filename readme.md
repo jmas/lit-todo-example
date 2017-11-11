@@ -9,6 +9,6 @@ It is ToDo list example that demonstrate three libraries working together:
 
 * Clone repository
 * `npm install` or `yarn install`
-* `npm run build` or `yarn run build`
+* `npm run build-prod` or `yarn run build-prod`
 * Open `index.html`
 

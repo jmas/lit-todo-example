@@ -4,9 +4,9 @@ import logger from 'redux-logger';
 import * as todoApp from './todo_app';
 
 const store = createStore(
-	todoApp.store,
+	todoApp.reducer,
 	{
-		...todoApp.store.defaultState,
+		...todoApp.reducer.defaultState,
 		todos: [
 			{
 				text: 'Redux forever',
