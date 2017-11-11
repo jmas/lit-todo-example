@@ -12,3 +12,7 @@ It is ToDo list example that demonstrate three libraries working together:
 * `npm run build-prod` or `yarn run build-prod`
 * Open `index.html`
 
+## Other related projects
+
+* [`lit-redux`](https://github.com/jmas/lit-redux) - is `react-redux` API implementation for `lit-html` library
+* [`lit-form`](https://github.com/jmas/lit-form) - Formik API implementation for `lit-html` library
