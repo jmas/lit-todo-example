@@ -4,20 +4,20 @@ import logger from 'redux-logger';
 import * as todoApp from './todo_app';
 
 const store = createStore(
-	todoApp.reducer,
-	{
-		...todoApp.reducer.defaultState,
-		todos: [
-			{
-				text: 'Redux forever',
-				done: false,
-			},
-		],
-	},
-	applyMiddleware(logger)
+    todoApp.reducer,
+    {
+        ...todoApp.reducer.defaultState,
+        todos: [
+            {
+                text: 'Redux forever',
+                done: false,
+            },
+        ],
+    },
+    applyMiddleware(logger)
 );
 
 render(
-	html`${ todoApp.container({ store }) }`,
-	document.body
+    html`${ todoApp.container({ store }) }`,
+    document.body
 );
