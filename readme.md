@@ -5,12 +5,16 @@ It is ToDo list example that demonstrate three libraries working together:
 * [lit-redux](https://github.com/jmas/lit-redux)
 * [lit-form](https://github.com/jmas/lit-form)
 
-# Build & Run
+## Build & Run
 
 * Clone repository
 * `npm install` or `yarn install`
 * `npm run build-prod` or `yarn run build-prod`
 * Open `index.html`
+
+## Live demo
+
+[Codepen](https://codepen.io/alex_maslakov/pen/GOmJmN) (guaranteed work in latest Chrome)
 
 ## Other related projects
 
