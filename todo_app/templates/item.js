@@ -1,7 +1,6 @@
 import {html} from 'lit-html/lib/lit-extended';
 import jss from 'jss';
 import preset from 'jss-preset-default';
-import cx from 'classnames';
 
 jss.setup(preset());
 
@@ -42,7 +41,7 @@ export default ({text, done, onDoneChange, onEdit, onSave}) => html`
         <button
             type="button"
             onclick="${ onEdit }"
-            className="${ cx(classes.editButton, 'editButton') }"
+            className="${ classes.editButton }"
         >Edit</button>
     </div>
 `;
