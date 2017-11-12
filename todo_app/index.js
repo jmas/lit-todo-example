@@ -3,7 +3,7 @@ import reducer from './reducer';
 import actions from './actions';
 import container from './container';
 
-export {
+export default {
     actionTypes,
     reducer,
     actions,

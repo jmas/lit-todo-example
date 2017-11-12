@@ -26,7 +26,7 @@ const {classes} = jss.createStyleSheet({
         backgroundColor: 'silver',
     },
     list: {
-        // todo
+        // @todo reserved
     },
     listItem: {
         borderTop: '1px solid silver',

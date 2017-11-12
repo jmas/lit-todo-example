@@ -1,7 +1,7 @@
 import {html, render} from 'lit-html/lib/lit-extended';
 import {createStore, applyMiddleware} from 'redux';
 import logger from 'redux-logger';
-import * as todoApp from './todo_app';
+import todoApp from './todo_app';
 
 const store = createStore(
     todoApp.reducer,
@@ -9,7 +9,7 @@ const store = createStore(
         ...todoApp.reducer.defaultState,
         todos: [
             {
-                text: 'Redux forever',
+                text: 'Use Redux',
                 done: false,
             },
         ],

@@ -15,7 +15,12 @@ export default withForm({
     adding = false,
 }) => html`
     <form onsubmit="${ handleSubmit }">
-        <input type="text" name="text" onchange="${ handleChange }" value="${ values.text }" autofocus />
+        <input
+            type="text"
+            name="text"
+            onchange="${ handleChange }"
+            value="${ values.text }" autofocus
+        />
         <button>${ adding ? 'Add': 'Save' }</button>
     </form>
 `);
