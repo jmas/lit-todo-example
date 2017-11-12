@@ -42,10 +42,11 @@ export default (state = defaultState, action) => {
                 editing: null,
                 todos: state.todos.map(item => (
                     item === action.item
-                        ? {
-                            ...item,
-                            text: action.text,
-                        }
+                        ?
+                            {
+                                ...item,
+                                text: action.text,
+                            }
                         : item
                 )),
             };
